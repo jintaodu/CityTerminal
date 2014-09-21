@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+body 
+	{
+		margin:0px;
+		padding:0px;
+		border:0px;
+		font-family:Arial, Helvetica, sans-serif;
+		/*font-family:"Times New Roman", Times, serif;*/
+		text-decoration:none;
+	}
+	
+.index_pic 
+	{
+		/*background-image:url(home.jpg);*/
+		height:1024px;
+		width:1280px;
+		background-repeat: no-repeat;
+		
+		margin-left:auto;
+	    margin-right:auto;
+		margin-top:0px;
+		margin-bottom:0px;
+		
+		
+	}
+
+
+.index_pic_1
+	{
+		background-image:url(home.jpg);
+		height:1024px;
+		width:1280px;
+		background-repeat: no-repeat;
+		
+		margin-left:auto;
+	    margin-right:auto;
+		margin-top:0px;
+		margin-bottom:0px;
+		
+		
+	}
+	
+.index_pic_2
+	{
+	background-image:url(../pic1/bbk.jpg);
+	height:1024px;
+	width:1280px;
+	background-repeat: no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	margin-bottom:0px;
+	position:absolute;
+		
+		
+	}
+	
+.index_pic_2 .layout_table 
+	{
+		margin-left:720px;
+		margin-top:300px;
+		margin-bottom:500px;
+		color:#FFF;
+		
+		
+	}
+	
+.divLeft
+{
+	background-image:url(../pic1/left_back.png);
+	background-repeat:no-repeat;
+	width:217px;
+	height:898px;
+	
+	float: left;
+	margin:0px;
+	/*background-color:#cacbc5;*/
+	}
+	
+.divLeft td .ctr
+
+	{
+		
+		border-bottom:1px solid #1679CF;
+		color:#FFF;
+		
+		
+	}
+	
+.divLeft .gap
+	{
+	
+	}	
+	
+.divLeft td .ctr span
+{
+	padding-bottom:30px;
+	
+	}
+	
+.divCenter{
+	width:100%;
+	/*margin:0px auto;*/
+	
+	margin-top:
+	        
+	
+	}
+        
+.divRight
+{
+	width:210px;
+	height:880px;
+	float: right;
+	margin:0px;
+	
+	background-color:#cacbc5;
+	}
+	
+
+	
+.right
+	{
+		background-color:#cacbc5;
+		
+	}
+
+.right img
+	{
+		margin:10px 0px 0px 10px;
+		border-left:10px;
+		border-top:10px;
+		border-right:10px;
+		border:#FFF;
+		
+	}
+	

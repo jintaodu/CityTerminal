@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  
+  <context-param>
+  <param-name>socketPort</param-name>
+  <param-value>8189</param-value>
+  </context-param>
+  <listener>
+  <description>socket服务随web服务器启动而启动</description>
+  <listener-class>ServerSocket.ServerSocketUpdatePackageListener</listener-class>
+  </listener>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>yichuan.gov.Servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginCheckServlet</servlet-name>
+    <servlet-class>yichuan.gov.Servlet.LoginCheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddItemServlet</servlet-name>
+    <servlet-class>yichuan.gov.Servlet.AddItemServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectCurrentItemsServlet</servlet-name>
+    <servlet-class>yichuan.gov.Servlet.SelectCurrentItemsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteItemShowedAtHome</servlet-name>
+    <servlet-class>yichuan.gov.Servlet.DeleteItemShowedAtHome</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteItemServlet</servlet-name>
+    <servlet-class>yichuan.gov.Servlet.DeleteItemServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReadImage</servlet-name>
+    <servlet-class>yichuan.gov.Servlet.ReadImage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddFirstLevelCategoryServlet</servlet-name>
+    <servlet-class>yichuan.gov.Servlet.AddFirstLevelCategoryServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddSecondLevelCategoryServlet</servlet-name>
+    <servlet-class>yichuan.gov.Servlet.AddSecondLevelCategoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddAdServlet</servlet-name>
+    <servlet-class>yichuan.gov.Servlet.AddAdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddPositionServlet</servlet-name>
+    <servlet-class>yichuan.gov.Servlet.AddPositionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCategoryShowAtHome</servlet-name>
+    <servlet-class>yichuan.gov.Servlet.AddCategoryShowAtHome</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GenerateUpdatePackage</servlet-name>
+    <servlet-class>yichuan.gov.Servlet.GenerateUpdatePackage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateClientDBServlet</servlet-name>
+    <servlet-class>yichuan.gov.Servlet.UpdateClientDBServlet</servlet-class>
+  </servlet>
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FirstLevelCategoryInfoUpdate</servlet-name>
+    <servlet-class>yichuan.gov.Servlet.FirstLevelCategoryInfoUpdate</servlet-class>
+  </servlet>
+	<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SecondLevelCategoryInfoUpdate</servlet-name>
+    <servlet-class>yichuan.gov.Servlet.SecondLevelCategoryInfoUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ItemInfoUpdateServlet</servlet-name>
+    <servlet-class>yichuan.gov.Servlet.ItemInfoUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdInfoUpdateServlet</servlet-name>
+    <servlet-class>yichuan.gov.Servlet.AdInfoUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadFileServlet</servlet-name>
+    <servlet-class>yichuan.gov.Servlet.UploadFileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FirstLevelCategoryInfoUpdateServlet</servlet-name>
+    <servlet-class>FirstLevelCategoryInfoUpdateServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+   <!--  <url-pattern>/servlet/RegisterServlet</url-pattern> -->
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginCheckServlet</servlet-name>
+    <url-pattern>/LoginCheckServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>AddItemServlet</servlet-name>
+    <url-pattern>/AddItemServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectCurrentItemsServlet</servlet-name>
+    <url-pattern>/SelectCurrentItemsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteItemShowedAtHome</servlet-name>
+    <url-pattern>/DeleteItemShowedAtHome</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteItemServlet</servlet-name>
+    <url-pattern>/DeleteItemServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReadImage</servlet-name>
+    <url-pattern>/ReadImage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddFirstLevelCategoryServlet</servlet-name>
+    <url-pattern>/AddFirstLevelCategoryServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>AddSecondLevelCategoryServlet</servlet-name>
+    <url-pattern>/AddSecondLevelCategoryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddAdServlet</servlet-name>
+    <url-pattern>/adManagement/AddAdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddPositionServlet</servlet-name>
+    <url-pattern>/addManagement/AddPositionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCategoryShowAtHome</servlet-name>
+    <url-pattern>/AddCategoryShowAtHome</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GenerateUpdatePackage</servlet-name>
+    <url-pattern>/GenerateUpdatePackage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateClientDBServlet</servlet-name>
+    <url-pattern>/UpdateClientDBServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FirstLevelCategoryInfoUpdate</servlet-name>
+    <url-pattern>/categoryPic/FirstLevelCategoryInfoUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SecondLevelCategoryInfoUpdate</servlet-name>
+    <url-pattern>/categoryPic/SecondLevelCategoryInfoUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ItemInfoUpdateServlet</servlet-name>
+    <url-pattern>/itemPic/ItemInfoUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdInfoUpdateServlet</servlet-name>
+    <url-pattern>/adManagement/AdInfoUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadFileServlet</servlet-name>
+    <url-pattern>/UploadFileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FirstLevelCategoryInfoUpdateServlet</servlet-name>
+    <url-pattern>/FirstLevelCategoryInfoUpdateServlet</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>login.html</welcome-file>
+  </welcome-file-list>
+</web-app>
